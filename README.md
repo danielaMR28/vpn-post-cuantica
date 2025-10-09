@@ -6,4 +6,4 @@ Proyecto de simulación y análisis de sobrecosto en VPN con algoritmos post-cu�
 - Daniela Mejía Rivas
 - Orlando Arzate Alcántara
 
-## UAEM - Facultad de Ingeniería
+## UAEMéx - Facultad de Ingeniería

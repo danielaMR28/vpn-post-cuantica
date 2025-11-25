@@ -1,0 +1,6 @@
+Seguridad,Rendimiento,Compatibilidad,Costo,Operacional,Algorithm
+7,6,5,6,7,Kyber-512
+8,5,5,7,6,Kyber-768
+9,4,4,8,5,Kyber-1024
+8,5,6,6,6,Dilithium-2
+9,4,5,7,5,Dilithium-3

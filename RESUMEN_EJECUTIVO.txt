@@ -1,0 +1,72 @@
+================================================================================
+RESUMEN EJECUTIVO
+PROYECTO: VPN CON CRIPTOGRAFÍA POST-CUÁNTICA
+Análisis de Sobrecosto en Diseño y Simulación
+================================================================================
+
+Fecha de generación: 25 de noviembre de 2025
+Autores: Daniela Mejía Rivas & Orlando Arzate Alcántara
+
+HALLAZGOS PRINCIPALES
+----------------------------------------
+
+3. EVALUACIÓN DE RIESGOS:
+   • Amenaza cuántica significativa esperada para 2035
+   • Ventana de vulnerabilidad para RSA-2048: 2035
+   • Ventana de vulnerabilidad para ECC-P256: 2033
+   • Recomendación: Iniciar migración antes de 2030
+
+4. ANÁLISIS FINANCIERO:
+   • Inversión estimada (empresa mediana): $200,000 - $300,000 USD
+   • ROI esperado a 5 años: 50-100%
+   • Período de recuperación: 2-3 años
+   • Beneficio principal: Prevención de brechas futuras
+
+5. PLAN DE MIGRACIÓN PROPUESTO:
+   • Duración total: 18 meses
+   • Fase 1 (3 meses): Evaluación y preparación
+   • Fase 2 (6 meses): Piloto e implementación híbrida
+   • Fase 3 (6 meses): Expansión controlada
+   • Fase 4 (3 meses): Migración completa
+
+RECOMENDACIONES ESTRATÉGICAS
+----------------------------------------
+
+1. INMEDIATO (0-3 meses):
+   • Formar comité de evaluación PQC
+   • Auditoría de infraestructura actual
+   • Iniciar capacitación del personal
+
+2. CORTO PLAZO (3-12 meses):
+   • Implementar piloto con Kyber-768
+   • Establecer métricas de monitoreo
+   • Desarrollar plan de contingencia
+
+3. MEDIANO PLAZO (12-24 meses):
+   • Expansión gradual a toda la red
+   • Integración con sistemas de seguridad
+   • Certificación de cumplimiento
+
+CONCLUSIÓN
+----------------------------------------
+
+La migración a criptografía post-cuántica representa una inversión
+estratégica necesaria para garantizar la seguridad a largo plazo.
+Aunque implica sobrecostos en rendimiento (20-30%) y recursos,
+el riesgo de no actuar supera ampliamente los costos de implementación.
+
+Se recomienda iniciar el proceso de migración en Q1 2025 para
+completar la transición antes de que la amenaza cuántica sea crítica.
+
+DOCUMENTACIÓN GENERADA
+----------------------------------------
+1. vpn_simulation_results.csv - Datos detallados de simulación
+2. vpn_analysis_report.txt - Reporte técnico completo
+3. remote_access_results.csv - Análisis VPN acceso remoto
+4. risk_matrix.csv - Matriz de evaluación de riesgos
+5. migration_plan.txt - Plan detallado de migración
+6. Visualizaciones: 4 archivos PNG con gráficas
+
+================================================================================
+FIN DEL RESUMEN EJECUTIVO
+================================================================================

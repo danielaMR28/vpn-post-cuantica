@@ -1,0 +1,98 @@
+================================================================================
+REPORTE DE ANÁLISIS: VPN CON CRIPTOGRAFÍA POST-CUÁNTICA
+================================================================================
+
+RESUMEN EJECUTIVO
+----------------------------------------
+Este análisis compara el rendimiento de VPN tradicionales con aquellas que
+implementan criptografía post-cuántica (PQC), evaluando el sobrecosto en
+diferentes métricas críticas para la toma de decisiones empresariales.
+
+RESULTADOS PRINCIPALES
+----------------------------------------
+
+Algoritmos Tradicionales (Promedio):
+  • Tamaño de clave: 224 bytes
+  • Tiempo intercambio: 11.62 ms
+  • Throughput: 11.69 Mbps
+  • Uso CPU: 75.07%
+  • Uso memoria: 53.50 MB
+
+Algoritmos Post-Cuánticos (Promedio):
+  • Tamaño de clave: 1363 bytes
+  • Tiempo intercambio: 10.16 ms
+  • Throughput: 10.86 Mbps
+  • Uso CPU: 10.04%
+  • Uso memoria: 91.27 MB
+
+ANÁLISIS DE SOBRECOSTO
+----------------------------------------
+
+Kyber-512:
+  • Sobrecosto en intercambio de claves: -13.1%
+  • Reducción de throughput: 7.5%
+  • Sobrecosto en CPU: -89.8%
+  • Sobrecosto en memoria: 38.7%
+
+Kyber-768:
+  • Sobrecosto en intercambio de claves: -12.8%
+  • Reducción de throughput: 7.5%
+  • Sobrecosto en CPU: -88.3%
+  • Sobrecosto en memoria: 60.5%
+
+Kyber-1024:
+  • Sobrecosto en intercambio de claves: -12.4%
+  • Reducción de throughput: 7.6%
+  • Sobrecosto en CPU: -85.4%
+  • Sobrecosto en memoria: 82.2%
+
+Dilithium-2:
+  • Sobrecosto en intercambio de claves: -12.6%
+  • Reducción de throughput: 7.6%
+  • Sobrecosto en CPU: -86.4%
+  • Sobrecosto en memoria: 67.7%
+
+Dilithium-3:
+  • Sobrecosto en intercambio de claves: -11.9%
+  • Reducción de throughput: 7.6%
+  • Sobrecosto en CPU: -83.2%
+  • Sobrecosto en memoria: 103.9%
+
+RECOMENDACIONES
+----------------------------------------
+
+1. ALGORITMO RECOMENDADO: Kyber-512
+   Ofrece el mejor balance entre seguridad cuántica y rendimiento.
+
+2. CONSIDERACIONES DE IMPLEMENTACIÓN:
+   • Fase 1: Implementar en enlaces no críticos (6 meses)
+   • Fase 2: Expandir a conexiones de sucursales (12 meses)
+   • Fase 3: Migración completa (18-24 meses)
+
+3. INVERSIÓN REQUERIDA:
+   • Actualización de hardware: Recomendada para soportar mayor carga de CPU
+   • Capacitación del personal: Esencial para gestión de nuevos esquemas
+   • Monitoreo continuo: Crítico durante período de transición
+
+4. MITIGACIÓN DE RIESGOS:
+   • Implementar modo híbrido (tradicional + PQC) inicialmente
+   • Establecer métricas de rendimiento aceptables
+   • Plan de rollback en caso de problemas críticos
+
+CONCLUSIONES
+----------------------------------------
+
+La implementación de criptografía post-cuántica en VPN corporativas presenta
+un sobrecosto significativo pero manejable:
+
+  • Incremento promedio en tiempo de intercambio: -12.6%
+  • Reducción promedio de throughput: 7.6%
+  • Incremento promedio en uso de recursos: -8.0%
+
+Sin embargo, considerando la amenaza futura de la computación cuántica,
+la adopción gradual de PQC es una inversión necesaria para garantizar
+la seguridad a largo plazo de las comunicaciones corporativas.
+
+================================================================================
+FIN DEL REPORTE
+================================================================================

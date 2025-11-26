@@ -15,14 +15,14 @@ Algoritmos Tradicionales (Promedio):
   • Tamaño de clave: 224 bytes
   • Tiempo intercambio: 11.62 ms
   • Throughput: 11.69 Mbps
-  • Uso CPU: 75.07%
+  • Uso CPU: 75.21%
   • Uso memoria: 53.50 MB
 
 Algoritmos Post-Cuánticos (Promedio):
   • Tamaño de clave: 1363 bytes
   • Tiempo intercambio: 10.16 ms
   • Throughput: 10.86 Mbps
-  • Uso CPU: 10.04%
+  • Uso CPU: 9.77%
   • Uso memoria: 91.27 MB
 
 ANÁLISIS DE SOBRECOSTO
@@ -31,31 +31,31 @@ ANÁLISIS DE SOBRECOSTO
 Kyber-512:
   • Sobrecosto en intercambio de claves: -13.1%
   • Reducción de throughput: 7.5%
-  • Sobrecosto en CPU: -89.8%
+  • Sobrecosto en CPU: -90.2%
   • Sobrecosto en memoria: 38.7%
 
 Kyber-768:
   • Sobrecosto en intercambio de claves: -12.8%
   • Reducción de throughput: 7.5%
-  • Sobrecosto en CPU: -88.3%
+  • Sobrecosto en CPU: -88.9%
   • Sobrecosto en memoria: 60.5%
 
 Kyber-1024:
   • Sobrecosto en intercambio de claves: -12.4%
   • Reducción de throughput: 7.6%
-  • Sobrecosto en CPU: -85.4%
+  • Sobrecosto en CPU: -85.9%
   • Sobrecosto en memoria: 82.2%
 
 Dilithium-2:
   • Sobrecosto en intercambio de claves: -12.6%
   • Reducción de throughput: 7.6%
-  • Sobrecosto en CPU: -86.4%
+  • Sobrecosto en CPU: -87.2%
   • Sobrecosto en memoria: 67.7%
 
 Dilithium-3:
   • Sobrecosto en intercambio de claves: -11.9%
   • Reducción de throughput: 7.6%
-  • Sobrecosto en CPU: -83.2%
+  • Sobrecosto en CPU: -82.9%
   • Sobrecosto en memoria: 103.9%
 
 RECOMENDACIONES
@@ -87,7 +87,7 @@ un sobrecosto significativo pero manejable:
 
   • Incremento promedio en tiempo de intercambio: -12.6%
   • Reducción promedio de throughput: 7.6%
-  • Incremento promedio en uso de recursos: -8.0%
+  • Incremento promedio en uso de recursos: -8.2%
 
 Sin embargo, considerando la amenaza futura de la computación cuántica,
 la adopción gradual de PQC es una inversión necesaria para garantizar

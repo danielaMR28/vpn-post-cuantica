@@ -38,22 +38,20 @@ def run_simulation(script_name: str, description: str) -> bool:
     Returns:
         True si la ejecución fue exitosa
     """
-    print(f"\nEjecutando: {description}")
-    print("-" * 60)
+    print(f"\n{'='*80}")
+    print(f"Ejecutando: {description}")
+    print('='*80)
     
     try:
-        result = subprocess.run([sys.executable, script_name], 
-                              capture_output=True, text=True)
+        result = subprocess.run([sys.executable, script_name])
         
         if result.returncode == 0:
-            print(f"{description} completada exitosamente")
             return True
         else:
-            print(f"Error en {description}")
-            print(result.stderr)
+            print(f"\n✗ Error en {description}")
             return False
     except Exception as e:
-        print(f"Error ejecutando {script_name}: {str(e)}")
+        print(f"\n✗ Error ejecutando {script_name}: {str(e)}")
         return False
 
 def generate_executive_summary():
@@ -315,6 +313,8 @@ def main():
     
     # Variables para tracking
     simulations = [
+        ('vpn_tradicional_test.py', 'CP-01: Test VPN Tradicional'),
+        ('vpn_postcuantico_test.py', 'CP-02: Test VPN Post-Cuántico'),
         ('vpn_pqc_simulation.py', 'Simulación Principal de VPN PQC'),
         ('vpn_topology_simulation.py', 'Simulación de VPN de Acceso Remoto'),
         ('risk_analysis_migration.py', 'Análisis de Riesgos y Plan de Migración')
@@ -362,6 +362,8 @@ def main():
     
     # Listar archivos generados
     output_files = [
+        'vpn_tradicional_metricas.json',
+        'vpn_postcuantico_logs.json',
         'vpn_simulation_results.csv',
         'vpn_analysis_report.txt',
         'vpn_analysis_comparison.png',
